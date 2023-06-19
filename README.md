@@ -71,15 +71,15 @@ These are methods that are used to calculate something about the process.
 
 ```java
 public int getWaitTime() {
-	return getTurnaroundTime() - getBurst();
+  return getTurnaroundTime() - getBurst();
 }
 
 public int getTurnaroundTime() {
-	return  getCompletionTime() - getArrivalTime();
+  return  getCompletionTime() - getArrivalTime();
 }
 
 public int getResponseTime(int stopwatch) {
-	return  stopwatch - getArrivalTime();
+  return  stopwatch - getArrivalTime();
 }
 ```
 `getWaitTime()` is used to determine the wait time of the process which is calculated by subtracting the burst (burst that was given by the csv file) from the turnaround time which has its own calculation
@@ -90,21 +90,21 @@ public int getResponseTime(int stopwatch) {
 
 ```java
 public void runProcess(int q) {
-	burstTime -= q;
-	processTime += q;
+  burstTime -= q;
+  processTime += q;
 }
 
   
 
 public void idlingProcess(int ct) {
-	idleTime += ct;
-	processTime += ct;
+  idleTime += ct;
+  processTime += ct;
 }
 
   
 
 public void contextSwitch(int csTime) {
-	processTime += csTime;
+  processTime += csTime;
 }
 ```
 
