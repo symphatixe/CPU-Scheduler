@@ -1,4 +1,4 @@
-# CPU Scheduler
+﻿# CPU Scheduler
 Create a program that simulates Round Robin CPU scheduling, including Round Robin and Priority Queue algorithms is optional and in my case I decided to do both. You are required to use five different quantums to showcase the differences in efficiency of the algorithm and how it changes based on the processes entered. You will use the Java command line with two arguments to run the program: `file path of the processes file` and `time quantum`. 
 
 The simulation should include the following:
@@ -108,4 +108,4 @@ public void contextSwitch(int csTime) {
 }
 ```
 
-p
+
