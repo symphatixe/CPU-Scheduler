@@ -39,3 +39,14 @@ $ java target processes.csv 2 //you are running the file here with two arguments
 <br/><br/>
 
 ## Code Walkthrough
+
+### Processes .csv file
+```
+pid,arrive,burst,priority
+1,0,7,3
+2,1,5,1
+3,0,2,2
+4,2,6,4
+```
+
+The csv file is 
