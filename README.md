@@ -111,10 +111,14 @@ public void contextSwitch(int csTime) {
 `idlingProcess` is used to track the amount of idle time a process accrues over time using context switch time which is user-defined, in my case it was 2 ms.
 `contextSwitch` adds the context switch time to the process time to simulate a context switch taking some amount of time.
 
-The difference between the `idlingProcess` and `contextSwitch` methods is that the `idlingProcess` method is used more than once since processes with lower priority will wait a long time 
+The difference between the `idlingProcess` and `contextSwitch` methods is that the `idlingProcess` method is used more than once since processes with lower priority will wait a long time until it is called by round robin to run it. 
+
+<br/>
+
+### CPU Class
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5Mjg0MTAsOTg3MTI1OTAyLDU2ODkwNz
-Y5NCw1MzI4MTkwMF19
+eyJoaXN0b3J5IjpbMTM1NDYyOTU3Miw2NTkyODQxMCw5ODcxMj
+U5MDIsNTY4OTA3Njk0LDUzMjgxOTAwXX0=
 -->
