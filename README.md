@@ -107,11 +107,11 @@ public void contextSwitch(int csTime) {
   processTime += csTime;
 }
 ```
-`runProcess` is used to run the processes by subtracting the burst time from them
-
+`runProcess` is used to run the processes by subtracting the time quantum from their burst time, and then adding the time quantum to the process time.
+`idlingProcess` is used to track the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3MTI1OTAyLDU2ODkwNzY5NCw1MzI4MT
-kwMF19
+eyJoaXN0b3J5IjpbLTEwOTA4ODIzODYsOTg3MTI1OTAyLDU2OD
+kwNzY5NCw1MzI4MTkwMF19
 -->
