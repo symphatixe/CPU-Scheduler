@@ -107,10 +107,11 @@ public void contextSwitch(int csTime) {
   processTime += csTime;
 }
 ```
-`runProcess` is used to run the processes by 
+`runProcess` is used to run the processes by subtracting the burst time from them
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4OTA3Njk0LDUzMjgxOTAwXX0=
+eyJoaXN0b3J5IjpbOTg3MTI1OTAyLDU2ODkwNzY5NCw1MzI4MT
+kwMF19
 -->
