@@ -122,11 +122,19 @@ This class has an inner class names `ProcessComparator` that implements the Comp
 #### ProcessComparator
 
 ```java
+@Override
+public  int  compare(Process  p1, Process  p2) {
 
+	if (p1.getPriority() <  p2.getPriority() ) return  -1;
+	else  if (p1.getPriority() >  p2.getPriority() ) return  1;
+	else  return  0;
+}
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzM5NjQyNywtMTUyMTAyMzM0MiwtMj
-EyMTk4NDIwNCwxODc4Mzg3MDUwLDE1NzAwNjE5ODIsMTM1NDYy
-OTU3Miw2NTkyODQxMCw5ODcxMjU5MDIsNTY4OTA3Njk0LDUzMj
-gxOTAwXX0=
+eyJoaXN0b3J5IjpbLTE3Njk5NDc4NzQsLTE1MjEwMjMzNDIsLT
+IxMjE5ODQyMDQsMTg3ODM4NzA1MCwxNTcwMDYxOTgyLDEzNTQ2
+Mjk1NzIsNjU5Mjg0MTAsOTg3MTI1OTAyLDU2ODkwNzY5NCw1Mz
+I4MTkwMF19
 -->
