@@ -117,9 +117,9 @@ The difference between the `idlingProcess` and `contextSwitch` methods is that t
 
 ### CPU Class
 
-This class has an inner class 
+This class has an inner class names `ProcessComparator` that implements another 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc5MzEyMTcsMTM1NDYyOTU3Miw2NT
-kyODQxMCw5ODcxMjU5MDIsNTY4OTA3Njk0LDUzMjgxOTAwXX0=
+eyJoaXN0b3J5IjpbMTU3MDA2MTk4MiwxMzU0NjI5NTcyLDY1OT
+I4NDEwLDk4NzEyNTkwMiw1Njg5MDc2OTQsNTMyODE5MDBdfQ==
 
 -->
