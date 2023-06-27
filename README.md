@@ -125,9 +125,9 @@ This class has an inner class names `ProcessComparator` that implements the Comp
 @Override
 public  int  compare(Process  p1, Process  p2) {
 
-	if (p1.getPriority() <  p2.getPriority() ) return  -1;
-	else  if (p1.getPriority() >  p2.getPriority() ) return  1;
-	else  return  0;
+  if (p1.getPriority() <  p2.getPriority() ) return  -1;
+  else  if (p1.getPriority() >  p2.getPriority() ) return  1;
+  else  return  0;
 }
 ```
 
