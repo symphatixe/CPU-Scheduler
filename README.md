@@ -131,12 +131,12 @@ public  int  compare(Process  p1, Process  p2) {
 }
 ```
 
-This overridden method is used to tell Java how to understand your queue objects and determine how something should be sorted. 
+This overridden method is used to tell Java how to understand your queue objects and determine how they should be sorted. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODcyMDcxLDkzMDQ2NzkwOSwtMTc2OT
-k0Nzg3NCwtMTUyMTAyMzM0MiwtMjEyMTk4NDIwNCwxODc4Mzg3
-MDUwLDE1NzAwNjE5ODIsMTM1NDYyOTU3Miw2NTkyODQxMCw5OD
-cxMjU5MDIsNTY4OTA3Njk0LDUzMjgxOTAwXX0=
+eyJoaXN0b3J5IjpbMTYzODc0Mjc2MSw5MzA0Njc5MDksLTE3Nj
+k5NDc4NzQsLTE1MjEwMjMzNDIsLTIxMjE5ODQyMDQsMTg3ODM4
+NzA1MCwxNTcwMDYxOTgyLDEzNTQ2Mjk1NzIsNjU5Mjg0MTAsOT
+g3MTI1OTAyLDU2ODkwNzY5NCw1MzI4MTkwMF19
 -->
