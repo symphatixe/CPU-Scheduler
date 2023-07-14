@@ -131,10 +131,12 @@ public  int  compare(Process  p1, Process  p2) {
 }
 ```
 
+This overridden method is used to tell Java how to understand your comparison, determine how someth
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk5NDc4NzQsLTE1MjEwMjMzNDIsLT
-IxMjE5ODQyMDQsMTg3ODM4NzA1MCwxNTcwMDYxOTgyLDEzNTQ2
-Mjk1NzIsNjU5Mjg0MTAsOTg3MTI1OTAyLDU2ODkwNzY5NCw1Mz
-I4MTkwMF19
+eyJoaXN0b3J5IjpbOTM4Nzc1MjI2LC0xNzY5OTQ3ODc0LC0xNT
+IxMDIzMzQyLC0yMTIxOTg0MjA0LDE4NzgzODcwNTAsMTU3MDA2
+MTk4MiwxMzU0NjI5NTcyLDY1OTI4NDEwLDk4NzEyNTkwMiw1Nj
+g5MDc2OTQsNTMyODE5MDBdfQ==
 -->
