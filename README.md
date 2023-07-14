@@ -117,7 +117,7 @@ The difference between the `idlingProcess` and `contextSwitch` methods is that t
 
 ### CPU Class
 
-This class has an inner class names `ProcessComparator` that implements the Comparator interface for the `Process` class. I was required to create this custom compare class to override the method given by Java because I was using a **priority queue**. When using a `PriorityQueue` in Java you can either use the natural ordering of elements which means it'll determine the order using the `compareTo` method. Otherwise it will use the custom `Comparator` implemented by the programmer. 
+This class has an inner class named `ProcessComparator` that implements the Comparator interface for the `Process` class. I was required to create this custom compare class to override the method given by Java because I was using a **priority queue**. When using a `PriorityQueue` in Java you can either use the natural ordering of elements which means it'll determine the order using the `compareTo` method. Otherwise it will use the custom `Comparator` implemented by the programmer. 
 
 #### ProcessComparator
 
@@ -135,8 +135,8 @@ This overridden method is used to tell Java how to understand your queue objects
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgzMjkxMzAsLTE3Njk5NDc4NzQsLT
-E1MjEwMjMzNDIsLTIxMjE5ODQyMDQsMTg3ODM4NzA1MCwxNTcw
-MDYxOTgyLDEzNTQ2Mjk1NzIsNjU5Mjg0MTAsOTg3MTI1OTAyLD
-U2ODkwNzY5NCw1MzI4MTkwMF19
+eyJoaXN0b3J5IjpbOTMwNDY3OTA5LC0xNzY5OTQ3ODc0LC0xNT
+IxMDIzMzQyLC0yMTIxOTg0MjA0LDE4NzgzODcwNTAsMTU3MDA2
+MTk4MiwxMzU0NjI5NTcyLDY1OTI4NDEwLDk4NzEyNTkwMiw1Nj
+g5MDc2OTQsNTMyODE5MDBdfQ==
 -->
