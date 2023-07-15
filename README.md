@@ -131,12 +131,13 @@ public  int  compare(Process  p1, Process  p2) {
 }
 ```
 
-This overridden method is used to tell Java how to understand your queue objects and determine how they should be sorted. 
+This overridden method is used to tell Java how to understand your queue objects and determine how they should be sorted. In my case priority is highest when the number is 1 and the priority decreases one by one.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODc0Mjc2MSw5MzA0Njc5MDksLTE3Nj
-k5NDc4NzQsLTE1MjEwMjMzNDIsLTIxMjE5ODQyMDQsMTg3ODM4
-NzA1MCwxNTcwMDYxOTgyLDEzNTQ2Mjk1NzIsNjU5Mjg0MTAsOT
-g3MTI1OTAyLDU2ODkwNzY5NCw1MzI4MTkwMF19
+eyJoaXN0b3J5IjpbMTExMDgwNDcxNSwxNjM4NzQyNzYxLDkzMD
+Q2NzkwOSwtMTc2OTk0Nzg3NCwtMTUyMTAyMzM0MiwtMjEyMTk4
+NDIwNCwxODc4Mzg3MDUwLDE1NzAwNjE5ODIsMTM1NDYyOTU3Mi
+w2NTkyODQxMCw5ODcxMjU5MDIsNTY4OTA3Njk0LDUzMjgxOTAw
+XX0=
 -->
